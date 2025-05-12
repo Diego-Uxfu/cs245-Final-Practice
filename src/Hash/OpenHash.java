@@ -59,6 +59,7 @@ public class OpenHash { // open hashing has linear probing by default, no need f
             System.out.println("No se puede insertar el elemento");
         }
     }
+
     public void printHashTable(){
         System.out.println("HashTable:\n");
         for(HashElement hashElement : HashTable){
